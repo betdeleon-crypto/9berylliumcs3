@@ -1,1 +1,3 @@
-https://github.com/EF-Isaac/9-MAGNESIUM-CS3GGg
+#hello po i am Eofie
+#9 beryllium
+#corp email: betdeleon@brc.pshs.edu.ph

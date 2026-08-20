@@ -82,7 +82,7 @@ else:
 ```
 
 
-3. `Digital Menu`
+3. `Digital Menu` ; 
    The pseudocode of this example solution will only be applicable when the manager is configuring the machine.
 ```
 enter food item name

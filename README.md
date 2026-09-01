@@ -8,3 +8,4 @@
 - [Computational Thinking Skills Exercise](https://github.com/betdeleon-crypto/9berylliumcs3/blob/f739804d2746cf66ab8d7751a34a5ff357b68cb6/quarter%201/ctskillsBerylliumDELEON.md)
 - [ILA 3-1: Applying the Four Pillars of OOP](https://github.com/betdeleon-crypto/9berylliumcs3/blob/923bda74ddb120e8bb157ff51d7c963460d91a94/quarter%201/ila_oop.md)
 - [OOPact](https://github.com/betdeleon-crypto/9berylliumcs3/blob/6687945928a68cb940e594b9445a42d56742670f/quarter%201/classObjectUML.md)
+- - [Class Diagram](https://github.com/betdeleon-crypto/9berylliumcs3/blob/0e14bec50be7108b3bb6a81ad3863858219f584a/quarter%201/images/UML%20Class%20Diagram.png)

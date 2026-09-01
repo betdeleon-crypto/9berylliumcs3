@@ -18,7 +18,7 @@
 | withdraw(amount: float) | Takes out money from the current balance. |
 
 ## Class Diagram
-![Class Diagram](https://github.com/betdeleon-crypto/9berylliumcs3/blob/edc574c8b8ad0b8d382f3981d53667c5d4798004/quarter%201/images/UML%20Class%20Diagram.jpg)
+![Class Diagram](https://github.com/betdeleon-crypto/9berylliumcs3/blob/b5e92d80182ff2edb80b78c1118df2f81912f7fa/quarter%201/images/UML%20Class%20Diagram.png)
 
 ## Design Explanation
 ### Why did you choose this class?

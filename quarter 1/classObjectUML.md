@@ -6,7 +6,7 @@
 | Property | Data Type | Description |
 | --- | --- | --- |
 | Account Name | str | Name of the primary account holder |
-| Payment Network | str | Indicates if all transactions will be in **debit** or **credit** |
+| Payment Network | boolean | Indicates if all transactions will be in **debit** or not. |
 | PIN | int | Personal identification number or the account password |
 | Balance | float | Stores the total money the account holds. |
 

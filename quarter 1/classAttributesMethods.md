@@ -17,7 +17,7 @@ Two new methods for the class Bank Account were added; the code method and reset
 | Balance | float | public | Account balance can be viewed to manage operations or offer service and products. |
 
 ## Updated UML Class Diagram
-![Class Diagram](--)
+![Class Diagram](https://github.com/betdeleon-crypto/9berylliumcs3/blob/b7d1bb7947c72c829a3edc4b6707d5262e85b4ab/quarter%201/images/classDiagramSG5.png)
 
 ## Python Implementation
 

@@ -9,3 +9,4 @@
 - [ILA 3-1: Applying the Four Pillars of OOP](https://github.com/betdeleon-crypto/9berylliumcs3/blob/923bda74ddb120e8bb157ff51d7c963460d91a94/quarter%201/ila_oop.md)
 - [OOPact](https://github.com/betdeleon-crypto/9berylliumcs3/blob/6687945928a68cb940e594b9445a42d56742670f/quarter%201/classObjectUML.md)
 - - [Class Diagram](https://github.com/betdeleon-crypto/9berylliumcs3/blob/0e14bec50be7108b3bb6a81ad3863858219f584a/quarter%201/images/UML%20Class%20Diagram.png)
+- [OOPact II](https://github.com/betdeleon-crypto/9berylliumcs3/blob/a51a8dbbf2a45f1a552debc0ee297eab0e1a6f55/quarter%201/classAttributesMethods.md)

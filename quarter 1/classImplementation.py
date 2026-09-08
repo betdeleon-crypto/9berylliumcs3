@@ -2,38 +2,40 @@
 
 class bankAccount:
   def __init__(bankAccount, accountName, paymentNetwork, PIN, balance):
-    bankAccount.attribute1 = accountName
-    bankAccount.attribute2 = paymentNetwork
-    bankAccount.__attribute3 = PIN
-    bankAccount.__attribute4 = balance
+    bankAccount.accountName = accountName
+    bankAccount.paymentNetwork = paymentNetwork
+    bankAccount.__PIN = PIN
+    bankAccount.__balance = balance
 
   def displayBalance(bankAccount):
     code = int(input(f"Enter password for {bankAccount.accountName}: "))
-    if code == bankAccount.PIN:
+    if code == bankAccount.__PIN:
         print(f"""Account Name: {bankAccount.accountName}
-        Balance: {bankAccount.balance}""")
+Balance: {bankAccount.__balance}""")
 
   def resetPassword(bankAccount):
       password = int(input('Enter previous password: '))
-      if bankAccount.PIN == password:
+      if bankAccount.__PIN == password:
         password = int(input("Enter new password: "))
         if password > 9999 or password <999:
           print("Error. Password isn't 4 digits. Please try again")
           bankAccount.resetPassword(bankAccount)
         else:
           return password
+          print(f"""Account Name: {bankAccount.accountName}
+PIN: {bankAccount.__PIN}""")
 
   def deposit(bankAccount,amount):
-      bankAccount.balance += amount
-      return bankAccount.balance
+      bankAccount.__balance += amount
+      return bankAccount.__balance
 
   def withdraw(bankAccount,amount):
-      if amount > bankAccount.balance:
-        bankAccount.balance -= amount
+      if amount > bankAccount.__balance:
+        bankAccount.__balance -= amount
       else:
           print("Error. Amount is larger than balance.")
-          bankAccount.withdraw(bankAccount,amount)
-      return bankAccount.balance
+          pass
+      return bankAccount.__balance
       
 account1 = bankAccount("Eofie","debit",1215,6677.67)
 
@@ -51,7 +53,7 @@ Enter the number of your next step: """))
     amount = float(input("Enter the amount you will deposit: "))
     account1.balance = bankAccount.deposit(account1,amount)
   elif n == 3:
-    account1.PIN = account1.resetPassword(account1)
+    account1.__PIN = account1.resetPassword()
   elif n == 4:
     bankAccount.displayBalance(account1)
   else:

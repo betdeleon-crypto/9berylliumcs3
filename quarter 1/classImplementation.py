@@ -1,69 +1,67 @@
-#method renew password added
-
 class bankAccount:
   def __init__(bankAccount, accountName, paymentNetwork, PIN, balance):
     bankAccount.accountName = accountName
     bankAccount.paymentNetwork = paymentNetwork
-    bankAccount.__PIN = PIN
-    bankAccount.__balance = balance
+    bankAccount.PIN = PIN
+    bankAccount.balance = balance
+
+  def code(bankAccount):
+    code = int(input(f"Enter password for {bankAccount.accountName}: "))
+    if code == bankAccount.PIN:
+        return True
+    else:
+        print("Error. Password doesn't match. Account locked.")
 
   def displayBalance(bankAccount):
-    code = int(input(f"Enter password for {bankAccount.accountName}: "))
-    if code == bankAccount.__PIN:
-        print(f"""Account Name: {bankAccount.accountName}
-Balance: {bankAccount.__balance}""")
+    print(f"""Account Name: {bankAccount.accountName}
+PIN code: {bankAccount.PIN}
+Payment Network: {bankAccount.paymentNetwork}
+Balance: {bankAccount.balance}""")
 
   def resetPassword(bankAccount):
-      password = int(input('Enter previous password: '))
-      if bankAccount.__PIN == password:
-        password = int(input("Enter new password: "))
-        if password > 9999 or password <999:
-          print("Error. Password isn't 4 digits. Please try again")
+      password = int(input(f'Enter previous password for {bankAccount.accountName}: '))
+      if bankAccount.PIN == password:
+        newpassword = int(input(f"Enter new password for {bankAccount.accountName}: "))
+        if newpassword > 9999 or newpassword <999:
+          print("Error. Password isn't 4 digits. Please try again.")
           bankAccount.resetPassword(bankAccount)
         else:
-          return password
-          print(f"""Account Name: {bankAccount.accountName}
-PIN: {bankAccount.__PIN}""")
+          print("PIN code succesfully changed.")
+          bankAccount.PIN = newpassword
+          return bankAccount.PIN
+      else:
+          print("Error. Password doesn't match.")
+          return bankAccount.PIN
 
   def deposit(bankAccount,amount):
-      bankAccount.__balance += amount
-      return bankAccount.__balance
+      bankAccount.balance += amount
+      bankAccount.displayBalance()
+      return bankAccount.balance
 
   def withdraw(bankAccount,amount):
-      if amount > bankAccount.__balance:
-        bankAccount.__balance -= amount
+      if amount < bankAccount.balance:
+        bankAccount.balance -= amount
+        print(f"Successfully withdrew {amount} from your account.")
+        bankAccount.displayBalance()
       else:
           print("Error. Amount is larger than balance.")
           pass
-      return bankAccount.__balance
-      
-account1 = bankAccount("Eofie","debit",1215,6677.67)
+      return bankAccount.balance
 
-def interface():
-  n = int(input("""1 Withdraw
-2 Deposit
-3 Reset Password
-4 Display Balance
 
-Enter the number of your next step: """))
-  if n == 1:
-    amount = float(input("Enter the amount you will withdraw: "))
-    bankAccount.balance = bankAccount.withdraw(account1,amount)
-  elif n == 2:
-    amount = float(input("Enter the amount you will deposit: "))
-    account1.balance = bankAccount.deposit(account1,amount)
-  elif n == 3:
-    account1.__PIN = account1.resetPassword()
-  elif n == 4:
-    bankAccount.displayBalance(account1)
-  else:
-    print("Error. Please input a valid step.")
-    interface()
-    
-interface()
+account1 = bankAccount("Shelsy","debit",2704,8172011.00)
+account2 = bankAccount("Quiel","debit",4014,1000000.00)
 
-'''Your methods must satisfy all of these requirements:
-At least one method receives a parameter.
-At least one method changes an attribute.
-At least one method reads or returns information about the object.
-At least one method must safely interact with a private attribute.'''
+bankAccount.displayBalance(account1)
+print("\n")
+bankAccount.displayBalance(account2)
+print("\n")
+
+account1.PIN = account1.resetPassword()
+
+print("\n")
+bankAccount.displayBalance(account1)
+print("\n")
+bankAccount.displayBalance(account2)
+
+#note: the private attribute PIN wasn't set as a private attribute to allow public display for the demonstration of the process

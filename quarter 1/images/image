@@ -1,0 +1,30 @@
+          +---------------------------------+
+          |           Bank Account          |
+          +---------------------------------+
+          | + Account name : string         |
+          | - PIN code : integer            |
+          | + Payment Network : string      |
+          | + Balance : float               |
+          +---------------------------------+
+          | + code()                        |
+          | + displayBalance()              |
+          | + resetPassword()               |
+          | + deposit(parameter: float)     |
+          | + withdraw(paramete: float)     |
+          +---------------------------------+
+                          |
+                          | may consist
+                          |
+          +---------------------------------+
+          |     Secondary Bank Account      |
+          +---------------------------------+
+          | + Account name : string         |
+          | - PIN code : string             |
+          | + Status: boolean               |
+          | - Transfer Limit: float         | 
+          | + Balance: float                |
+          +---------------------------------+
+          | + receive(parameter: float)     |
+          | + deposit(parameter: float)     |
+          | + withdraw(paramete: float)     |
+          +---------------------------------+

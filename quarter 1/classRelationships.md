@@ -25,13 +25,17 @@ Multiplicity:
 Explanation:
 
 ## UML Class Relationship Diagram
-![Class Relationship Diagram](images/classRelationshipDiagram.png)
+![Class Relationship Diagram]([images/classRelationshipDiagram.png](https://github.com/betdeleon-crypto/9berylliumcs3/blob/538fce646ad27aea90ec4d2c58a14b5ead3b9dae/quarter%201/images/classRelationshipDiagram.png))
+
 ## Python Implementation
 [View Python Source](classRelationships.py)
+
 ## Test Run
 ![Relationship Test Run](images/relationshipTestRun.png)
+
 ## Object Relationship Diagram
 ![Object Relationship Diagram](images/objectRelationshipDiagram.png)
+
 ## Analysis
 ### What is the association between your two classes?
 ### What multiplicity did you choose and why?

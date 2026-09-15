@@ -91,3 +91,6 @@ class secondaryAccount:
 account1 = bankAccount("Shelsy","debit",2704,8172011.00)
 account2 = bankAccount("Quiel","debit",4014,1000000.00)
 sAcc1 = secondaryAccount("Eofie",1215,True,12000.00,909)
+
+primAcc = [account1,account2]
+secAcc = [sAcc1]

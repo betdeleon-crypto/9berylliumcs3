@@ -15,6 +15,7 @@
                           |
                           | may consist
                           |
+                         1..*
           +---------------------------------+
           |     Secondary Bank Account      |
           +---------------------------------+
@@ -24,7 +25,9 @@
           | - Transfer Limit: float         | 
           | + Balance: float                |
           +---------------------------------+
+          | + code()                        |
           | + receive(parameter: float)     |
           | + deposit(parameter: float)     |
           | + withdraw(paramete: float)     |
+          | + resetPassword()               |
           +---------------------------------+

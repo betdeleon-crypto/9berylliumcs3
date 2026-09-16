@@ -31,3 +31,24 @@
           | + withdraw(paramete: float)     |
           | + resetPassword()               |
           +---------------------------------+
+
+
+
+
+
+
+            account1 : Shelsy
+            Account name = "Shelsy"
+                    |
+                    | Secondary Account(s)
+                    |
+                    +------> Eofie : Secondary account
+
+
+            account2 : Quiel
+            Account name = "Quiel"
+
+
+
+
+

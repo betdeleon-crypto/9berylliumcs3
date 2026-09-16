@@ -5,17 +5,20 @@
           | - PIN code : integer            |
           | + Payment Network : string      |
           | + Balance : float               |
+          | + secondaryAccs : array         |
           +---------------------------------+
           | + code()                        |
           | + displayBalance()              |
           | + resetPassword()               |
           | + deposit(parameter: float)     |
-          | + withdraw(paramete: float)     |
+          | + withdraw(parameter: float)    |
+          | + add_secAcc()                  |
           +---------------------------------+
+                          1
                           |
                           | may consist
                           |
-                         1..*
+                         0..*
           +---------------------------------+
           |     Secondary Bank Account      |
           +---------------------------------+

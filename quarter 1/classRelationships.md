@@ -28,7 +28,7 @@ Explanation:
 ![Class Relationship Diagram](https://github.com/betdeleon-crypto/9berylliumcs3/blob/b7e8da3e46b26df9dc9d147c2f7ab32d9ea2107a/quarter%201/images/classRelationshipDiagram.png)
 
 ## Python Implementation
-[View Python Source](classRelationships.py)
+[View Python Source](https://github.com/betdeleon-crypto/9berylliumcs3/blob/75d958ce6a48adcd1cc16fb798fd325d222fea9c/quarter%201/classRelationships.py)
 
 ## Test Run
 ![Relationship Test Run](images/relationshipTestRun.png)

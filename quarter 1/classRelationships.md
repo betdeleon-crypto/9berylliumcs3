@@ -25,7 +25,7 @@ Multiplicity:
 Explanation:
 
 ## UML Class Relationship Diagram
-![Class Relationship Diagram](https://github.com/betdeleon-crypto/9berylliumcs3/blob/538fce646ad27aea90ec4d2c58a14b5ead3b9dae/quarter%201/images/classRelationshipDiagram.png)
+![Class Relationship Diagram](https://github.com/betdeleon-crypto/9berylliumcs3/blob/b7e8da3e46b26df9dc9d147c2f7ab32d9ea2107a/quarter%201/images/classRelationshipDiagram.png)
 
 ## Python Implementation
 [View Python Source](classRelationships.py)

@@ -1,9 +1,8 @@
           +---------------------------------+
-          |           Bank Account          |
+          |      Savings Bank Account       |
           +---------------------------------+
           | + Account name : string         |
           | - PIN code : integer            |
-          | + Payment Network : string      |
           | + Balance : float               |
           | + secondaryAccs : array         |
           +---------------------------------+
@@ -12,27 +11,22 @@
           | + resetPassword()               |
           | + deposit(parameter: float)     |
           | + withdraw(parameter: float)    |
-          | + add_secAcc()                  |
+          | + connect_kidAcc()              |
           +---------------------------------+
-                          1
+                          △
                           |
-                          | may consist
                           |
-                         0..*
+                          | inherits
+                          |
+                          |
           +---------------------------------+
-          |     Secondary Bank Account      |
+          |       Kiddie Bank Account       |
           +---------------------------------+
-          | + Account name : string         |
-          | - PIN code : string             |
-          | + Status: boolean               |
           | - Transfer Limit: float         | 
-          | + Balance: float                |
+          | - parent account: savings b.a.  |
           +---------------------------------+
-          | + code()                        |
           | + receive(parameter: float)     |
-          | + deposit(parameter: float)     |
-          | + withdraw(paramete: float)     |
-          | + resetPassword()               |
+          | + withdraw(parameter: float)    |
           +---------------------------------+
 
 

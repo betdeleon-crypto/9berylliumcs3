@@ -57,8 +57,9 @@ Balance: {self.balance}""")
       return self.kiddieAccs
 
 class kidAcc(savingsAccount):
-    def __init__(self,accountName,transferLimit,balance,parentAcc):
+    def __init__(self,accountName,PIN,transferLimit,balance,parentAcc):
         self.accountName = str(accountName)
+        self.PIN = int(PIN)
         self.transferLimit = float(transferLimit)
         self.balance = float(balance)
         self.parentAcc = savingsAccount
@@ -83,7 +84,7 @@ class kidAcc(savingsAccount):
 
 
 account1 = savingsAccount("Shelsy",2704,8172011.00, [])
-sAcc1 = kidAcc("Eofie",1215,12000.00,account1)
+sAcc1 = kidAcc("Eofie",1215,100.00,12000.00,account1)
 
 def adding_secAcc(ba):                                        #sa=Secondary Account
     sa = int(input(f"""Welcome {ba.accountName}!
@@ -92,16 +93,19 @@ def adding_secAcc(ba):                                        #sa=Secondary Acco
 Please select a kiddie account to connect to your account: """))
     if sa == 1:
         sa = sAcc1
-        savingsAccount.connect_kidAcc(ba,sa)
-        print("Displaying account information...")
-        savingsAccount.displayBalance(ba)
-        print(f"""Account Name: {sa.accountName}
-    Transfer Limit: {sa.transferLimit}
-    Current Balance: {sa.balance}""")
-        amount = float(input("Enter the amount you would like to transfer to the all added secondary account: "))
-        sa.receive(amount,ba)
-        total_secAccs = len(ba.kiddieAccs)
-        ba.balance -= amount*total_secAccs
+        if sa.code():
+            savingsAccount.connect_kidAcc(ba,sa)
+            print("Displaying account information...")
+            savingsAccount.displayBalance(ba)
+            print(f"""Account Name: {sa.accountName}
+        Transfer Limit: {sa.transferLimit}
+        Current Balance: {sa.balance}""")
+            amount = float(input("Enter the amount you would like to transfer to the all added secondary account: "))
+            sa.receive(amount,ba)
+            total_secAccs = len(ba.kiddieAccs)
+            ba.balance -= amount*total_secAccs
+        else:
+            sys.exit(0)
     else:
         print("Invalid account number... Displaying information.")
     print(f"""Parent Account Name: {ba.accountName}

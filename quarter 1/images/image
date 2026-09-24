@@ -22,7 +22,10 @@
           +---------------------------------+
           |       Kiddie Bank Account       |
           +---------------------------------+
+          | + Account name : string         |
+          | - PIN code : integer            |
           | - Transfer Limit: float         | 
+          | + Balance : float               |
           | - parent account: savings b.a.  |
           +---------------------------------+
           | + receive(parameter: float)     |
@@ -31,6 +34,40 @@
 
 
 
+
+          +---------------------------------+
+          |      Savings Bank Account       |
+          +---------------------------------+
+          | + Account name : string         |
+          | - PIN code : integer            |
+          | + Balance : float               |
+          | + secondaryAccs : array         |
+          +---------------------------------+
+          | + code()                        |
+          | + displayBalance()              |
+          | + resetPassword()               |
+          | + deposit(parameter: float)     |
+          | + withdraw(parameter: float)    |
+          | + connect_kidAcc()              |
+          +---------------------------------+
+                          ◆
+                          |
+                          |
+                          | inherits
+                          |
+                          |
+          +---------------------------------+
+          |       Kiddie Bank Account       |
+          +---------------------------------+
+          | + Account name : string         |
+          | - PIN code : integer            |
+          | - Transfer Limit: float         | 
+          | + Balance : float               |
+          | - parent account: savings b.a.  |
+          +---------------------------------+
+          | + receive(parameter: float)     |
+          | + withdraw(parameter: float)    |
+          +---------------------------------+
 
 
 
@@ -47,5 +84,38 @@
 
 
 
+          +---------------------------------+
+          |    Savings Account: account1    |
+          +---------------------------------+
+          | + Account name : Shelsy         |
+          | - PIN code : 2704               |
+          | + Balance : 8172011.00          |
+          | + secondaryAccs : []            |
+          +---------------------------------+
+          | + code()                        |
+          | + displayBalance()              |
+          | + resetPassword()               |
+          | + deposit(parameter: float)     |
+          | + withdraw(parameter: float)    |
+          | + connect_kidAcc()              |
+          +---------------------------------+
+                          ◆
+                          |
+                          |
+                          | inherits
+                          |
+                          |
+          +---------------------------------+
+          |     Kiddie Account : sAcc1      |
+          +---------------------------------+
+          | + Account name : Eofie          |
+          | - PIN code : 1215               |
+          | - Transfer Limit: 100.00        | 
+          | + Balance : 12000.00            |
+          | - parent account: account1      |
+          +---------------------------------+
+          | + receive(parameter: float)     |
+          | + withdraw(parameter: float)    |
+          +---------------------------------+
 
 

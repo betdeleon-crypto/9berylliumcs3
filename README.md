@@ -16,5 +16,7 @@
 - [OOPact III](https://github.com/betdeleon-crypto/9berylliumcs3/blob/5c7903f327e0780824475839eb25bc62fae92614/quarter%201/classRelationships.md)
 - [OOPact IV](https://github.com/betdeleon-crypto/9berylliumcs3/blob/afbf64e53eeba9136fe115fccf21b41cd6f07053/quarter%201/advancedRelationships.md)
 
+## Quarter 2 Activities
+
 ### Study Guide 3 : Encapsulation
 - [Activity 3](https://github.com/betdeleon-crypto/9berylliumcs3/blob/e9102c1b1955d0d7b0121be19b8882b8852dd0b5/quarter%201/sg8_encapsulation.py)

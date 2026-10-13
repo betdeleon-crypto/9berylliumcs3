@@ -9,15 +9,12 @@
 
 ### [ILA 3-1: Applying the Four Pillars of OOP](https://github.com/betdeleon-crypto/9berylliumcs3/blob/923bda74ddb120e8bb157ff51d7c963460d91a94/quarter%201/ila_oop.md)
 
-### [OOPact](https://github.com/betdeleon-crypto/9berylliumcs3/blob/6687945928a68cb940e594b9445a42d56742670f/quarter%201/classObjectUML.md)
-
-- [Class Diagram](https://github.com/betdeleon-crypto/9berylliumcs3/blob/0e14bec50be7108b3bb6a81ad3863858219f584a/quarter%201/images/UML%20Class%20Diagram.png)
-
-### [OOPact II](https://github.com/betdeleon-crypto/9berylliumcs3/blob/a51a8dbbf2a45f1a552debc0ee297eab0e1a6f55/quarter%201/classAttributesMethods.md)
-
-### [OOPact III](https://github.com/betdeleon-crypto/9berylliumcs3/blob/5c7903f327e0780824475839eb25bc62fae92614/quarter%201/classRelationships.md)
-
-### [OOPact IV](https://github.com/betdeleon-crypto/9berylliumcs3/blob/afbf64e53eeba9136fe115fccf21b41cd6f07053/quarter%201/advancedRelationships.md)
+### OOPact
+- [OOPact I](https://github.com/betdeleon-crypto/9berylliumcs3/blob/6687945928a68cb940e594b9445a42d56742670f/quarter%201/classObjectUML.md)
+  - [Class Diagram](https://github.com/betdeleon-crypto/9berylliumcs3/blob/0e14bec50be7108b3bb6a81ad3863858219f584a/quarter%201/images/UML%20Class%20Diagram.png)
+- [OOPact II](https://github.com/betdeleon-crypto/9berylliumcs3/blob/a51a8dbbf2a45f1a552debc0ee297eab0e1a6f55/quarter%201/classAttributesMethods.md)
+- [OOPact III](https://github.com/betdeleon-crypto/9berylliumcs3/blob/5c7903f327e0780824475839eb25bc62fae92614/quarter%201/classRelationships.md)
+- [OOPact IV](https://github.com/betdeleon-crypto/9berylliumcs3/blob/afbf64e53eeba9136fe115fccf21b41cd6f07053/quarter%201/advancedRelationships.md)
 
 ### Study Guide 3 : Encapsulation
 - [Activity 3](https://github.com/betdeleon-crypto/9berylliumcs3/blob/e9102c1b1955d0d7b0121be19b8882b8852dd0b5/quarter%201/sg8_encapsulation.py)

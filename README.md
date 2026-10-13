@@ -18,5 +18,5 @@
 
 ## Quarter 2 Activities
 
-### Study Guide 3 : Encapsulation
+### Study Guide 8 : Encapsulation
 - [Activity 3](https://github.com/betdeleon-crypto/9berylliumcs3/blob/e9102c1b1955d0d7b0121be19b8882b8852dd0b5/quarter%201/sg8_encapsulation.py)

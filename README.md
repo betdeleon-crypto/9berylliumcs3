@@ -19,4 +19,7 @@
 ## Quarter 2 Activities
 
 ### Study Guide 8 : Encapsulation
-- [Activity 3](https://github.com/betdeleon-crypto/9berylliumcs3/blob/e9102c1b1955d0d7b0121be19b8882b8852dd0b5/quarter%201/sg8_encapsulation.py)
+- SG 8 - Encapsulation
+  - [Activity 3](https://github.com/betdeleon-crypto/9berylliumcs3/blob/e9102c1b1955d0d7b0121be19b8882b8852dd0b5/quarter%201/sg8_encapsulation.py)
+- SG 9 - Inheritance
+  - [Formative Assessment 1](https://github.com/betdeleon-crypto/9berylliumcs3/blob/85379aeabdca4fe87a71391c1087eb0e310d58a5/quarter%202/sg9_inheritance.py)

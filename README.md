@@ -22,3 +22,5 @@
 - [Activity 3](https://github.com/betdeleon-crypto/9berylliumcs3/blob/e9102c1b1955d0d7b0121be19b8882b8852dd0b5/quarter%201/sg8_encapsulation.py)
 ### Study Guide 9 : Inheritance
 - [Formative Assessment 1](https://github.com/betdeleon-crypto/9berylliumcs3/blob/85379aeabdca4fe87a71391c1087eb0e310d58a5/quarter%202/sg9_inheritance.py)
+### Study Guide 10 : Method Overriding
+- [Activity 1](https://github.com/betdeleon-crypto/9berylliumcs3/blob/e9e009c60be76657a8400572e9162fceb2f33e65/quarter%202/sg10_methodOverriding.py)
